@@ -1,0 +1,30 @@
+.container{
+    text-align: center;
+    background-color: rgb(39, 41, 68);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    padding: 20px 0;
+}
+img{
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+button{
+    margin: 20px 0;
+}
+button a{
+   color: white;
+}
+
+@media (max-width: 500px) { 
+    .landing-image {
+       width: 90%;
+    }
+ }
+ 
